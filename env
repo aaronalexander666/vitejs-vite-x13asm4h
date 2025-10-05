@@ -1,0 +1,6 @@
+# Go Backend
+PORT=8080
+ENV=development
+
+# Frontend will use VITE_* variables
+VITE_API_BASE=/api
