@@ -1,0 +1,18 @@
+vite-go-app/
+├── frontend/                # Vite.js frontend
+│   ├── index.html
+│   ├── src/
+│   │   ├── main.js
+│   │   ├── App.vue
+│   │   └── api.js           # API service for connecting to Go backend
+│   ├── package.json
+│   └── vite.config.js
+├── backend/                 # Go backend
+│   ├── main.go              # Entry point
+│   ├── go.mod
+│   ├── handlers/            # API handlers
+│   │   └── api_handlers.go
+│   ├── services/            # Business logic
+│   └── config/              # Configuration
+├── .gitignore
+└── README.md
